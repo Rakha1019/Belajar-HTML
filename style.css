@@ -1,0 +1,53 @@
+/* Universal selecto: agar padding & dan border masuk hitungan width/height semua elemen*/
+* {
+    box-sizing: border-box;
+}
+
+/* Body style: font dan margin defult*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ========== HEADER ========== */
+/* Hero section: bagian atas halaman*/
+.hero {
+    padding: 80px;
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bGE4ejV5ZTNteGxwNTl1d2FqOTR1ZW8zZDFtdm16YTFkNnExanllNiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/0WrS97JxpzwmTPbviV/giphy.gif");
+    background-size: cover;
+    color: white;
+}
+
+/* Judul Hero */
+.hero{
+    font-size: 40px;
+}
+/* Paragraf Hero */
+.hero p{
+    font-size: 20px;
+    margin: 0;
+}
+/* ============ NAVBAR ================ */
+/* NAVBAR UTAMA */
+.navbar{
+    position: relative;
+    /* UNtuk posisi Tombol Close */
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Link Data Kanan */
+    gap: 10px;
+    /* Jarak Antar Link */
+}
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s, color 0.2s;
+}
