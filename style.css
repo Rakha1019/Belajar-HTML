@@ -14,9 +14,11 @@ body {
 .hero {
     padding: 80px;
     text-align: center;
+    background-position: center;
     background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bGE4ejV5ZTNteGxwNTl1d2FqOTR1ZW8zZDFtdm16YTFkNnExanllNiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/0WrS97JxpzwmTPbviV/giphy.gif");
     background-size: cover;
     color: white;
+    padding: 150px;
 }
 
 /* Judul Hero */
@@ -50,4 +52,32 @@ body {
     text-decoration: none;
     text-align: center;
     transition: background 0.2s, color 0.2s;
+}
+.navbar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0,5s;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* side bar left column bagian samping */
+.side{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+/* main column bagian utama konten */
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+/* fake image blok : gambar palsu */
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }
